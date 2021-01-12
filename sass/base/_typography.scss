@@ -4,8 +4,8 @@ body {
   font-size: 1.6rem;
   line-height: 1;
   letter-spacing: 0.05rem;
-  color: $color-gray-light;
-  background-color: $color-gray-dark;
+  color: $color-gray-dark;
+  background-color: $color-gray-light;
 }
 
 p {
@@ -14,7 +14,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
-  color: $color-white;
+  color: $color-gray-dark;
 }
 
 ul {
