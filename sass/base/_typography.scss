@@ -58,3 +58,21 @@ a {
     color: $color-secondary-2;
   }
 }
+
+.heading {
+  text-transform: uppercase;
+
+  &--primary {
+    font-size: 2rem;
+  }
+
+  &--secondary {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  &--large {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+}

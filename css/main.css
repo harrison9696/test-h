@@ -97,6 +97,17 @@ a {
 .text--secondary-2 {
   color: #ff598f; }
 
+.heading {
+  text-transform: uppercase; }
+  .heading--primary {
+    font-size: 2rem; }
+  .heading--secondary {
+    font-size: 1.6rem;
+    font-weight: 600; }
+  .heading--large {
+    font-size: 3rem;
+    font-weight: 900; }
+
 .u-text-center {
   text-align: center; }
 
@@ -303,6 +314,29 @@ a {
 
 .u-text-uppercase {
   text-transform: uppercase; }
+
+.btn {
+  padding: 1.3rem 3.7rem;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: all .5s ease;
+  font-size: 1.8rem;
+  text-transform: uppercase; }
+  .btn:hover {
+    background-color: #00403a; }
+  .btn--secondary {
+    background-color: #401624; }
+    .btn--secondary:hover {
+      opacity: 0.9; }
+  .btn--secondary-2 {
+    background-color: #ff598f; }
+    .btn--secondary-2:hover {
+      opacity: 0.9; }
+  .btn--no-border {
+    border: none; }
+    .btn--no-border:hover {
+      border: none; }
 
 /*** YOUR CSS STYLES GOES HERE ***/
 /* Please see other scss files to see my styling */
