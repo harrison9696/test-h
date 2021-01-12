@@ -283,8 +283,11 @@ a {
   padding: 0;
   margin: 0; }
 
-.bg-white {
+.u-bg-white {
   background-color: #fff; }
+
+.u-text-uppercase {
+  text-transform: uppercase; }
 
 /*** YOUR CSS STYLES GOES HERE ***/
 /* Please see other scss files to see my styling */

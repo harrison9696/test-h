@@ -231,6 +231,10 @@
   margin: 0;
 }
 
-.bg-white {
+.u-bg-white {
   background-color: $color-white;
+}
+
+.u-text-uppercase {
+  text-transform: uppercase;
 }
