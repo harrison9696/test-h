@@ -5,7 +5,7 @@ body {
   line-height: 1;
   letter-spacing: 0.05rem;
   color: $color-gray-dark;
-  background-color: $color-gray-light;
+  background-color: $color-white;
 }
 
 p {
@@ -24,7 +24,7 @@ ul {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: $color-white;
+  color: $color-gray-dark;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -34,7 +34,27 @@ a {
     color: $color-gray-dark;
   }
 
+  &--gray {
+    color: $color-gray;
+  }
+
   &--light {
     color: $color-gray-light;
+  }
+
+  &--white {
+    color: $color-white;
+  }
+
+  &--primary {
+    color: $color-primary;
+  }
+
+  &--primary-3 {
+    color: $color-primary-3;
+  }
+
+  &--secondary-2 {
+    color: $color-secondary-2;
   }
 }
