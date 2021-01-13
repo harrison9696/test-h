@@ -36,7 +36,12 @@
 
   &__underline {
     height: 2px;
-    width: 6rem;
+    width: 5.5rem;
     background-color: $color-secondary-2;
+  }
+
+  &__btn {
+    display: block;
+    width: 22rem;
   }
 }

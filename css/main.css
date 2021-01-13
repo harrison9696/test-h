@@ -5,7 +5,6 @@
 1200px - 1800px : Normal
 1800px < : Big Desktop
 */
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700|Roboto+Mono:300,400,500,700|Roboto+Slab:300,400,500,700|Roboto:300,400,500,700,900&display=swap");
 *,
 *::before,
 *::after {
@@ -61,7 +60,8 @@ body {
   background-color: #fff; }
 
 p {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
@@ -101,17 +101,29 @@ a {
   text-transform: uppercase; }
   .heading--primary {
     font-size: 3rem;
-    font-weight: 400; }
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Roboto Condensed', sans-serif; }
   .heading--secondary {
-    font-size: 1.6rem;
-    font-weight: 600; }
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1; }
+  .heading--tertiary {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1; }
   .heading--large {
     font-size: 7rem;
-    font-weight: 900; }
+    font-weight: 900;
+    line-height: 1; }
+  .heading--thin {
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif; }
 
 .font-large {
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1.2;
   color: #fff; }
 
 .smallprint {
@@ -355,9 +367,12 @@ a {
     text-align: center; }
     .btn--full-width:hover {
       border: none; }
+  .btn--small {
+    font-size: 1.4rem;
+    padding: 1rem 2rem; }
 
 .navbar {
-  background-color: #0cb9ac;
+  background-color: rgba(12, 185, 172, 0.9);
   position: fixed;
   top: 0;
   left: 0;
@@ -398,13 +413,13 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
     padding-bottom: 6rem; }
   .showcase__arrow {
     width: 4rem;
     cursor: pointer;
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
     left: 50%;
     transform: translate(-50%, -50%); }
 
@@ -456,8 +471,11 @@ header {
     transform: translate(-50%, -50%); }
   .location__underline {
     height: 2px;
-    width: 6rem;
+    width: 5.5rem;
     background-color: #ff598f; }
+  .location__btn {
+    display: block;
+    width: 22rem; }
 
 .footer__content {
   display: flex; }
