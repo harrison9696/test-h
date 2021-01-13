@@ -109,6 +109,17 @@ a {
     font-size: 7rem;
     font-weight: 900; }
 
+.font-large {
+  font-size: 2rem;
+  line-height: 1;
+  color: #fff; }
+
+.smallprint {
+  font-size: 0.9rem; }
+
+.smallerprint {
+  font-size: 0.8rem; }
+
 .u-text-center {
   text-align: center; }
 
@@ -419,6 +430,40 @@ header {
 
 .welcome__image img {
   width: 100%; }
+
+.location {
+  background-color: #401624; }
+  .location__flex {
+    display: flex;
+    position: relative; }
+  .location_flex > * {
+    flex: 1;
+    z-index: 1;
+    height: 350px; }
+  .location__google {
+    flex: 1;
+    height: 350px; }
+    .location__google iframe {
+      height: 100%;
+      width: 100%; }
+  .location__address {
+    flex: 1;
+    position: relative; }
+  .location__address-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .location__underline {
+    height: 2px;
+    width: 6rem;
+    background-color: #ff598f; }
+
+.footer__content {
+  display: flex; }
+
+.footer__logo {
+  width: 13rem; }
 
 /*** YOUR CSS STYLES GOES HERE ***/
 /* Please see other scss files to see my styling */
