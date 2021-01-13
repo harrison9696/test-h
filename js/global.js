@@ -1,3 +1,5 @@
+// SLIDESHOW
+
 // Naming the variables
 const slides = document.querySelectorAll(`.header__slide`);
 const auto = true;
@@ -27,3 +29,12 @@ if(auto) {
   // run next slide at interval time
   slideInterval = setInterval(nextSlide, intervalTime);
 }
+
+// NAVBAR
+
+const hamburger = document.querySelector('.navbar__hamburger');
+const navOpen = document.querySelector('.navbar__open');
+
+hamburger.addEventListener('click', (e) => {
+  navOpen.classList.toggle('nav-open');
+});

@@ -392,6 +392,16 @@ a {
   .navbar__hamburger {
     width: 5rem;
     cursor: pointer; }
+  .navbar__open {
+    max-height: 0px; }
+  .navbar__open-flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+
+.nav-open {
+  max-height: 100%; }
 
 .header {
   height: 100vh;

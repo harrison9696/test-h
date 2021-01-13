@@ -33,4 +33,19 @@
     width: 5rem;
     cursor: pointer;
   }
+
+  &__open {
+    max-height: 0px;
+  }
+
+  &__open-flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+.nav-open {
+  max-height: 100%;
 }
