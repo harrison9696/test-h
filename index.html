@@ -13,12 +13,26 @@
 
   <!-- Add your HTML here -->
   <header id="header" class="header">
+    <!-- SLIDESHOW -->
     <div class="header__slider">
       <div class="header__slide header__slide--current" style="background: url(img/hero_image_one.jpg) no-repeat center center/cover;"></div>
       <div class="header__slide" style="background: url(img/hero_image_two.jpg) no-repeat center top/cover;"></div>
       <div class="header__slide" style="background: url(img/hero_image_three.jpg) no-repeat center top/cover;"></div>
     </div>
+
+    <!-- NAVBAR -->
     <div class="navbar">
+      <!-- Dropdown
+      <div class="navbar__open">
+        <div class="navbar__open-flex u-text-center u-padding-2 nav-open">
+          <ul>
+            <li class="heading heading--primary u-margin-bottom-2 text--white"><a href="#">WELCOME</a></li>
+            <li class="heading heading--primary u-margin-bottom-2 text--white"><a href="#">ABOUT US</a></li>
+            <li class="heading heading--primary u-margin-bottom-2 text--white"><a href="#">BENEFITS</a></li>
+            <li class="heading heading--primary u-margin-bottom-2 text--white"><a href="#">WORKING WITH US</a></li>
+            <li class="heading heading--primary text--white"><a href="#">OPPORTUNITIES</a></li>
+          </ul>
+      </div> -->
       <div class="container-no-max-width section-no-bottom u-padding-x-8 u-padding-y-2">
         <div class="navbar__flex">
           <div class="navbar__logo">
@@ -49,6 +63,8 @@
         </div>
       </div>
     </div>
+
+    <!-- SHOWCASE -->
     <div class="showcase">
       <div class="container-no-max-width section-no-bottom u-padding-x-8 u-padding-y-2 u-text-center">
         <div class="showcase__container">
@@ -57,9 +73,9 @@
             <h2 class="u-text-center u-text-uppercase heading heading--large u-margin-bottom-4">Travels</h2>
             <a href="#" class="btn btn--transparent u-text-center u-text-uppercase">View All Opportunities</a>
           </div>
-          <div class="showcase__arrow">
+          <a href="#welcome" class="showcase__arrow">
             <img src="img/svg/arrow_down.svg" alt="Scroll down call to action">
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -108,7 +124,7 @@
     </div>
 
     <!-- WELCOME SECTION -->
-    <div class="welcome">
+    <div id="welcome" class="welcome">
       <div class="container-no-max-width section u-padding-x-8 u-padding-y-4">
         <div class="welcome__flex">
           <div class="welcome__text u-margin-right-6">
@@ -166,7 +182,11 @@
     </div>
   </footer>
 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 	<script type="text/javascript" src="js/global.js"></script>
 </body>
 </html>

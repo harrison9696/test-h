@@ -442,6 +442,9 @@ a {
     flex-direction: column;
     justify-content: space-between; }
 
+#welcome {
+  scroll-margin-top: 200px; }
+
 .welcome__underline {
   height: 2px;
   width: 6rem;
