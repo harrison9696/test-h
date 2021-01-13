@@ -408,5 +408,17 @@ header {
     flex-direction: column;
     justify-content: space-between; }
 
+.welcome__underline {
+  height: 2px;
+  width: 6rem;
+  background-color: #00bfaf; }
+
+.welcome__flex {
+  display: grid;
+  grid-template-columns: 3fr 2fr; }
+
+.welcome__image img {
+  width: 100%; }
+
 /*** YOUR CSS STYLES GOES HERE ***/
 /* Please see other scss files to see my styling */

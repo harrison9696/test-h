@@ -1,0 +1,20 @@
+.welcome {
+
+  &__underline {
+    height: 2px;
+    width: 6rem;
+    background-color: $color-primary-3;
+  }
+
+  &__flex {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+  }
+
+  &__image {
+
+    img {
+      width: 100%;
+    }
+  }
+}
