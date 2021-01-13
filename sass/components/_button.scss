@@ -15,8 +15,7 @@
     background-color: $color-secondary;
 
     &:hover {
-      background-color: $color-secondary;
-      opacity: 0.9;
+      background-color: $color-secondary-2;
     }
   }
 
@@ -24,8 +23,7 @@
     background-color: $color-secondary-2;
 
     &:hover {
-      background-color: $color-secondary-2;
-      opacity: 0.9;
+      background-color: $color-secondary;
     }
   }
 
