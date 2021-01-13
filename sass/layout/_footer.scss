@@ -8,3 +8,17 @@
     width: 13rem;
   }
 }
+
+// Reduce padding
+
+@media(max-width: 759px) {
+  .footer > div {
+    padding: 2rem 4rem;
+  }
+}
+
+@media(max-width: 537px) {
+  .footer > div {
+    padding: 2rem 2rem;
+  }
+}

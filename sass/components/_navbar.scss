@@ -13,6 +13,10 @@
 
   &__logo {
     width: 20rem;
+
+    @media(max-width: 525px) {
+      width: 17rem;
+    }
   }
 
   &__socials-and-hamburger {
@@ -22,6 +26,10 @@
   &__socials {
     display: flex;
     margin-top: 0.3rem;
+
+    @media(max-width: 567px) {
+      display: none;
+    }
   }
 
   &__social {
@@ -32,6 +40,10 @@
   &__hamburger {
     width: 5rem;
     cursor: pointer;
+
+    @media(max-width: 525px) {
+      width: 4rem;
+    }
   }
 
   &__open {
@@ -48,4 +60,18 @@
 
 .nav-open {
   max-height: 100%;
+}
+
+// Reduce padding
+
+@media(max-width: 759px) {
+  .navbar > div {
+    padding: 2rem 4rem;
+  }
+}
+
+@media(max-width: 537px) {
+  .navbar > div {
+    padding: 2rem 2rem;
+  }
 }

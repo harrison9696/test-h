@@ -3,6 +3,10 @@
 
   &__opportunities {
     display: flex;
+
+    @media(max-width: 485px) {
+      flex-direction: column;
+    }
   }
 
   &__opportunity {
@@ -11,5 +15,24 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media(max-width: 485px) {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+// Reduce padding
+
+@media(max-width: 759px) {
+  .featured > div {
+    padding: 2rem 4rem;
+  }
+}
+
+@media(max-width: 537px) {
+  .featured > div {
+    padding: 2rem 2rem;
   }
 }
