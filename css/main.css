@@ -329,14 +329,20 @@ a {
   .btn--secondary {
     background-color: #401624; }
     .btn--secondary:hover {
+      background-color: #401624;
       opacity: 0.9; }
   .btn--secondary-2 {
     background-color: #ff598f; }
     .btn--secondary-2:hover {
+      background-color: #ff598f;
       opacity: 0.9; }
-  .btn--no-border {
-    border: none; }
-    .btn--no-border:hover {
+  .btn--full-width {
+    border: none;
+    padding-top: 1rem;
+    width: 100%;
+    display: block;
+    text-align: center; }
+    .btn--full-width:hover {
       border: none; }
 
 .navbar {
@@ -390,6 +396,17 @@ header {
     bottom: 20px;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.featured {
+  background-color: #00403a; }
+  .featured__opportunities {
+    display: flex; }
+  .featured__opportunity {
+    background-color: white;
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
 
 /*** YOUR CSS STYLES GOES HERE ***/
 /* Please see other scss files to see my styling */

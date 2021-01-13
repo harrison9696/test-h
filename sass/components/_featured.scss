@@ -1,0 +1,15 @@
+.featured {
+  background-color: $color-primary;
+
+  &__opportunities {
+    display: flex;
+  }
+
+  &__opportunity {
+    background-color: white;
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

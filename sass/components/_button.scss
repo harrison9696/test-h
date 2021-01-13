@@ -15,6 +15,7 @@
     background-color: $color-secondary;
 
     &:hover {
+      background-color: $color-secondary;
       opacity: 0.9;
     }
   }
@@ -23,12 +24,17 @@
     background-color: $color-secondary-2;
 
     &:hover {
+      background-color: $color-secondary-2;
       opacity: 0.9;
     }
   }
 
-  &--no-border {
+  &--full-width {
     border: none;
+    padding-top: 1rem;
+    width: 100%;
+    display: block;
+    text-align: center;
 
     &:hover {
       border: none;
