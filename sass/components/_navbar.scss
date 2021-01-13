@@ -1,0 +1,36 @@
+.navbar {
+  background-color: $color-primary-2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 20rem;
+  }
+
+  &__socials-and-hamburger {
+    display: flex;
+  }
+
+  &__socials {
+    display: flex;
+    margin-top: 0.3rem;
+  }
+
+  &__social {
+    width: 3rem;
+    cursor: pointer;
+  }
+
+  &__hamburger {
+    width: 5rem;
+    cursor: pointer;
+  }
+}

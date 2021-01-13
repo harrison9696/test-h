@@ -65,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
-  color: #111111; }
+  color: #fff; }
 
 ul {
   list-style: none; }
@@ -73,7 +73,7 @@ ul {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #111111;
+  color: #fff;
   font-family: 'Roboto', sans-serif; }
 
 .text--dark {
@@ -100,12 +100,13 @@ a {
 .heading {
   text-transform: uppercase; }
   .heading--primary {
-    font-size: 2rem; }
+    font-size: 3rem;
+    font-weight: 400; }
   .heading--secondary {
     font-size: 1.6rem;
     font-weight: 600; }
   .heading--large {
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 900; }
 
 .u-text-center {
@@ -337,6 +338,58 @@ a {
     border: none; }
     .btn--no-border:hover {
       border: none; }
+
+.navbar {
+  background-color: #0cb9ac;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; }
+  .navbar__flex {
+    display: flex;
+    justify-content: space-between; }
+  .navbar__logo {
+    width: 20rem; }
+  .navbar__socials-and-hamburger {
+    display: flex; }
+  .navbar__socials {
+    display: flex;
+    margin-top: 0.3rem; }
+  .navbar__social {
+    width: 3rem;
+    cursor: pointer; }
+  .navbar__hamburger {
+    width: 5rem;
+    cursor: pointer; }
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../img/hero_image_one.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  position: relative; }
+
+.showcase {
+  height: 100%; }
+  .showcase__container {
+    height: 100%; }
+  .showcase__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding-bottom: 6rem; }
+  .showcase__arrow {
+    width: 4rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 /*** YOUR CSS STYLES GOES HERE ***/
 /* Please see other scss files to see my styling */
