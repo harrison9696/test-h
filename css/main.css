@@ -415,7 +415,9 @@ a {
         display: none; } }
   .navbar__social {
     width: 3rem;
-    cursor: pointer; }
+    cursor: pointer;
+    position: relative;
+    transition: 0.5 ease; }
   .navbar__hamburger {
     width: 5rem;
     cursor: pointer; }
@@ -432,6 +434,18 @@ a {
 
 .nav-open {
   max-height: 100%; }
+
+.color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  z-index: -1; }
+
+.navbar__social .pink {
+  transition: 0.5s ease; }
+  .navbar__social .pink:hover {
+    opacity: 0; }
 
 @media (max-width: 759px) {
   .navbar > div {

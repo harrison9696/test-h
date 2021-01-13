@@ -35,6 +35,8 @@
   &__social {
     width: 3rem;
     cursor: pointer;
+    position: relative;
+    transition: 0.5 ease;
   }
 
   &__hamburger {
@@ -60,6 +62,22 @@
 
 .nav-open {
   max-height: 100%;
+}
+
+.color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  z-index: -1;
+}
+
+.navbar__social .pink {
+  transition: 0.5s ease;
+
+  &:hover {
+    opacity: 0;
+  }
 }
 
 // Reduce padding
