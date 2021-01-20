@@ -1,95 +1,95 @@
 .navbar {
-  background-color: rgba(12, 185, 172, 0.9);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+	background-color: rgba(12, 185, 172, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
 
-  &__flex {
-    display: flex;
-    justify-content: space-between;
-  }
+	&__flex {
+		display: flex;
+		justify-content: space-between;
+	}
 
-  &__logo {
-    width: 20rem;
+	&__logo {
+		width: 20rem;
 
-    @media(max-width: 525px) {
-      width: 17rem;
-    }
-  }
+		@media (max-width: 525px) {
+			width: 17rem;
+		}
+	}
 
-  &__socials-and-hamburger {
-    display: flex;
-  }
+	&__socials-and-hamburger {
+		display: flex;
+	}
 
-  &__socials {
-    display: flex;
-    margin-top: 0.3rem;
+	&__socials {
+		display: flex;
+		margin-top: 0.3rem;
 
-    @media(max-width: 567px) {
-      display: none;
-    }
-  }
+		@media (max-width: 567px) {
+			display: none;
+		}
+	}
 
-  &__social {
-    width: 3rem;
-    cursor: pointer;
-    position: relative;
-    transition: 0.5 ease;
-  }
+	&__social {
+		width: 3rem;
+		cursor: pointer;
+		position: relative;
+		transition: 0.5 ease;
+	}
 
-  &__hamburger {
-    width: 5rem;
-    cursor: pointer;
+	&__hamburger {
+		width: 5rem;
+		cursor: pointer;
 
-    @media(max-width: 525px) {
-      width: 4rem;
-    }
-  }
+		@media (max-width: 525px) {
+			width: 4rem;
+		}
+	}
 
-  &__open {
-    max-height: 0px;
-  }
+	&__open {
+		max-height: 0px;
+	}
 
-  &__open-flex {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-  }
+	&__open-flex {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
 }
 
 .nav-open {
-  max-height: 100%;
+	max-height: 100%;
 }
 
 .color {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 3rem;
-  z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3rem;
+	z-index: -1;
 }
 
 .navbar__social .pink {
-  transition: 0.5s ease;
+	transition: 0.5s ease;
 
-  &:hover {
-    opacity: 0;
-  }
+	&:hover {
+		opacity: 0;
+	}
 }
 
 // Reduce padding
 
-@media(max-width: 759px) {
-  .navbar > div {
-    padding: 2rem 4rem;
-  }
+@media (max-width: 759px) {
+	.navbar > div {
+		padding: 2rem 4rem;
+	}
 }
 
-@media(max-width: 537px) {
-  .navbar > div {
-    padding: 2rem 2rem;
-  }
+@media (max-width: 537px) {
+	.navbar > div {
+		padding: 2rem 2rem;
+	}
 }

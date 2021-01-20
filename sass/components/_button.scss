@@ -1,50 +1,50 @@
 .btn {
-  padding: 1.3rem 3.7rem;
-  border: 2px solid $color-white;
-  background-color: transparent;
-  color: $color-white;
-  transition: all .5s ease;
-  font-size: 1.8rem;
-  text-transform: uppercase;
+	padding: 1.3rem 3.7rem;
+	border: 2px solid $color-white;
+	background-color: transparent;
+	color: $color-white;
+	transition: all 0.5s ease;
+	font-size: 1.8rem;
+	text-transform: uppercase;
 
-  @media(max-width: 620px) {
-    font-size: 1.5rem;
-  }
+	@media (max-width: 620px) {
+		font-size: 1.5rem;
+	}
 
-  &:hover {
-    background-color: $color-primary;
-  }
+	&:hover {
+		background-color: $color-primary;
+	}
 
-  &--secondary {
-    background-color: $color-secondary;
+	&--secondary {
+		background-color: $color-secondary;
 
-    &:hover {
-      background-color: $color-secondary-2;
-    }
-  }
+		&:hover {
+			background-color: $color-secondary-2;
+		}
+	}
 
-  &--secondary-2 {
-    background-color: $color-secondary-2;
+	&--secondary-2 {
+		background-color: $color-secondary-2;
 
-    &:hover {
-      background-color: $color-secondary;
-    }
-  }
+		&:hover {
+			background-color: $color-secondary;
+		}
+	}
 
-  &--full-width {
-    border: none;
-    padding-top: 1rem;
-    width: 100%;
-    display: block;
-    text-align: center;
+	&--full-width {
+		border: none;
+		padding-top: 1rem;
+		width: 100%;
+		display: block;
+		text-align: center;
 
-    &:hover {
-      border: none;
-    }
-  }
+		&:hover {
+			border: none;
+		}
+	}
 
-  &--small {
-    font-size: 1.4rem;
-    padding: 1rem 2rem;
-  }
+	&--small {
+		font-size: 1.4rem;
+		padding: 1rem 2rem;
+	}
 }

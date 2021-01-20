@@ -1,38 +1,38 @@
 .featured {
-  background-color: $color-primary;
+	background-color: $color-primary;
 
-  &__opportunities {
-    display: flex;
+	&__opportunities {
+		display: flex;
 
-    @media(max-width: 485px) {
-      flex-direction: column;
-    }
-  }
+		@media (max-width: 485px) {
+			flex-direction: column;
+		}
+	}
 
-  &__opportunity {
-    background-color: white;
-    flex: 1 1 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	&__opportunity {
+		background-color: white;
+		flex: 1 1 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 
-    @media(max-width: 485px) {
-      margin-right: 0;
-      margin-bottom: 2rem;
-    }
-  }
+		@media (max-width: 485px) {
+			margin-right: 0;
+			margin-bottom: 2rem;
+		}
+	}
 }
 
 // Reduce padding
 
-@media(max-width: 759px) {
-  .featured > div {
-    padding: 2rem 4rem;
-  }
+@media (max-width: 759px) {
+	.featured > div {
+		padding: 2rem 4rem;
+	}
 }
 
-@media(max-width: 537px) {
-  .featured > div {
-    padding: 2rem 2rem;
-  }
+@media (max-width: 537px) {
+	.featured > div {
+		padding: 2rem 2rem;
+	}
 }

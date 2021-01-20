@@ -1,78 +1,75 @@
 #welcome {
-  scroll-margin-top: 200px;
+	scroll-margin-top: 200px;
 }
 
 .welcome {
+	&__text {
+		@media (max-width: 601px) {
+			margin-bottom: 4rem;
+			margin-right: 0;
+		}
+	}
 
-  &__text {
+	&__underline {
+		height: 2px;
+		width: 6rem;
+		background-color: $color-primary-3;
+	}
 
-    @media(max-width: 601px) {
-      margin-bottom: 4rem;
-      margin-right: 0;
-    }
-  }
+	&__flex {
+		display: grid;
+		grid-template-columns: 3fr 2fr;
 
-  &__underline {
-    height: 2px;
-    width: 6rem;
-    background-color: $color-primary-3;
-  }
+		@media (max-width: 929px) {
+			grid-template-columns: 3fr 3fr;
+		}
 
-  &__flex {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
+		@media (max-width: 849px) {
+			grid-template-columns: 3fr 4fr;
+		}
 
-    @media(max-width: 929px) {
-      grid-template-columns: 3fr 3fr;
-    }
+		@media (max-width: 723px) {
+			grid-template-columns: 4fr 3fr;
+		}
 
-    @media(max-width: 849px) {
-      grid-template-columns: 3fr 4fr;
-    }
+		@media (max-width: 643px) {
+			grid-template-columns: 4fr 3fr;
+		}
 
-    @media(max-width: 723px) {
-      grid-template-columns: 4fr 3fr;
-    }
+		@media (max-width: 601px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
 
-    @media(max-width: 643px) {
-      grid-template-columns: 4fr 3fr;
-    }
+	&__image {
+		img {
+			width: 100%;
 
-    @media(max-width: 601px) {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
+			@media (max-width: 601px) {
+				height: 75rem;
+			}
 
-  &__image {
+			@media (max-width: 465) {
+				height: 50rem;
+			}
 
-    img {
-      width: 100%;
-
-      @media(max-width: 601px) {
-        height: 75rem;
-      }
-
-      @media(max-width: 465) {
-        height: 50rem;
-      }
-
-      @media(max-width: 375) {
-        height: 30rem;
-      }
-    }
-  }
+			@media (max-width: 375) {
+				height: 30rem;
+			}
+		}
+	}
 }
 
 // Reduce padding
 
-@media(max-width: 759px) {
-  .welcome > div {
-    padding: 2rem 4rem;
-  }
+@media (max-width: 759px) {
+	.welcome > div {
+		padding: 2rem 4rem;
+	}
 }
 
-@media(max-width: 537px) {
-  .welcome > div {
-    padding: 2rem 2rem;
-  }
+@media (max-width: 537px) {
+	.welcome > div {
+		padding: 2rem 2rem;
+	}
 }
